@@ -3,7 +3,10 @@
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-typescript": "^7.9.0",
-    "babel": "^6.23.0",
-    "jest": "^25.3.0"
+    "jest": "^25.4.0",
+    "jest-environment-jsdom-sixteen": "^1.0.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0"
   }
 }

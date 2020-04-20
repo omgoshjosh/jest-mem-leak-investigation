@@ -18,7 +18,7 @@ module.exports = {
     clearMocks: true,
 
     // Indicates whether the coverage information should be collected while executing the test
-    collectCoverage: false,
+    collectCoverage: true,
     // coverageProvider: 'v8',
     // An array of glob patterns indicating a set of files for which coverage information should be collected
     // collectCoverageFrom: [
@@ -165,6 +165,7 @@ module.exports = {
 
     // The test environment that will be used for testing
     // testEnvironment: "jest-environment-jsdom",
+    "testEnvironment": "jest-environment-jsdom-sixteen",
 
     // Options that will be passed to the testEnvironment
     // testEnvironmentOptions: {},
